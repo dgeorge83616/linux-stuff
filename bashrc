@@ -122,7 +122,9 @@ set -o vi
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
 export VIMRUNTIME="/usr/local/share/vim/vim80"
-export VIM="/usr/local/bin/vim"
-export EDITOR="vi"
+export VIMRUNTIMEDIR="$VIMRUNTIME"
+export VIM="/usr/local/share/vim/vim80"
+export EDITOR="vim"
+export VISUAL="vim"
 
 export LD_LIBRARY_PATH=/usr/local/lib
