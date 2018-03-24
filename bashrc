@@ -128,3 +128,6 @@ export EDITOR="vim"
 export VISUAL="vim"
 
 export LD_LIBRARY_PATH=/usr/local/lib
+
+# added by Anaconda3 installer
+export PATH="/home/dan/anaconda3/bin:$PATH"
